@@ -114,7 +114,7 @@ export default function CarpetSection({ lang }: CarpetProps) {
             }}>
               <img
                 src={CARPET_IMG}
-                alt="Professional carpet cleaning service"
+                alt="Professional carpet cleaning service in Dallas-Fort Worth, TX"
                 style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
               />
               {/* Overlay badge */}

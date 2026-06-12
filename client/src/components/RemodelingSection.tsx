@@ -213,7 +213,7 @@ export default function RemodelingSection({ lang = "en" }: { lang?: string }) {
             >
               <img
                 src={REMODELING_IMAGE}
-                alt="Premium kitchen remodel by Pro Master Contractors"
+                alt="Commercial and residential remodeling by Pro Master Contractors in Dallas-Fort Worth, TX"
                 className="w-full h-full object-cover"
                 style={{ maxHeight: "600px" }}
                 loading="lazy"

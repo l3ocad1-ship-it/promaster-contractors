@@ -267,7 +267,7 @@ export default function WaterDamageSection({ lang }: WaterProps) {
             }}>
               <img
                 src={WATER_IMG}
-                alt="Water damage restoration technician"
+                alt="Water damage restoration and emergency water extraction service in Dallas-Fort Worth, TX"
                 style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
               />
               {/* Overlay badge */}

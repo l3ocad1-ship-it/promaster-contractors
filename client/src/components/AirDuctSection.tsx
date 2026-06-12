@@ -269,7 +269,7 @@ export default function AirDuctSection({ lang }: AirDuctProps) {
             }}>
               <img
                 src={AIRDUCT_IMG}
-                alt="Professional air duct cleaning service"
+                alt="Professional air duct and HVAC cleaning service in Dallas-Fort Worth, TX"
                 style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
               />
               {/* Overlay badge */}

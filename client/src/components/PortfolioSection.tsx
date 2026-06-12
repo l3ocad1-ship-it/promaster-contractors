@@ -136,7 +136,7 @@ export default function PortfolioSection({ lang }: PortfolioProps) {
             >
               <img
                 src={photo.src}
-                alt={photo.caption[lang]}
+                alt={`${photo.caption[lang]} — Pro Master Contractors, Dallas-Fort Worth, TX`}
                 className="gallery-img"
                 style={{ width: "100%", display: "block", transition: "transform 380ms cubic-bezier(0.23,1,0.32,1)" }}
               />

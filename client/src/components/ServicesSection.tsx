@@ -171,7 +171,7 @@ export default function ServicesSection({ lang }: ServicesProps) {
                 <div style={{ position: "relative", height: 200, overflow: "hidden" }}>
                   <img
                     src={svc.img}
-                    alt={svc.title}
+                    alt={`${svc.title} — Pro Master Contractors, Dallas-Fort Worth, TX`}
                     style={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform 400ms ease" }}
                     onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
                     onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
