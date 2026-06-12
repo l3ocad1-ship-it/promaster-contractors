@@ -2,8 +2,10 @@
  * FooterSection — Pro Master Contractors
  * Deep navy background. Clean columns. DM Sans. Emerald accents.
  */
+import { useState } from "react";
 import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
 import type { Lang } from "@/pages/Home";
+import LegalModal, { type LegalType } from "./LegalModal";
 
 const COPY = {
   en: {
@@ -13,6 +15,8 @@ const COPY = {
     contact: "Contact",
     legal: "© 2024 Pro Master Contractors. All rights reserved.",
     license: "Licensed & Insured | Serving Dallas-Fort Worth, TX",
+    terms: "Terms & Conditions",
+    privacy: "Privacy Policy",
   },
   es: {
     tagline: "Restauración y Remodelación de Confianza en Dallas-Fort Worth.",
@@ -21,6 +25,8 @@ const COPY = {
     contact: "Contacto",
     legal: "© 2024 Pro Master Contractors. Todos los derechos reservados.",
     license: "Licenciados y Asegurados | Servimos Dallas-Fort Worth, TX",
+    terms: "Términos y Condiciones",
+    privacy: "Política de Privacidad",
   },
 };
 
@@ -28,6 +34,7 @@ interface FooterProps { lang: Lang; }
 
 export default function FooterSection({ lang }: FooterProps) {
   const c = COPY[lang];
+  const [legal, setLegal] = useState<LegalType>(null);
 
   const scrollTo = (id: string) => {
     const el = document.querySelector(id);
@@ -116,11 +123,27 @@ export default function FooterSection({ lang }: FooterProps) {
         </div>
 
         {/* Bottom bar */}
-        <div style={{ borderTop: "1px solid rgba(255,255,255,0.07)", padding: "20px 0", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 8 }}>
+        <div style={{ borderTop: "1px solid rgba(255,255,255,0.07)", padding: "20px 0", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
           <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 400, fontSize: 12.5, color: "rgba(255,255,255,0.25)" }}>{c.legal}</span>
-          <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 400, fontSize: 12.5, color: "rgba(255,255,255,0.25)" }}>{c.license}</span>
+          <div style={{ display: "flex", alignItems: "center", gap: 18, flexWrap: "wrap" }}>
+            <button
+              onClick={() => setLegal("terms")}
+              style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 400, fontSize: 12.5, color: "rgba(255,255,255,0.45)", background: "none", border: "none", cursor: "pointer", padding: 0, transition: "color 150ms ease" }}
+              onMouseEnter={(e) => ((e.target as HTMLElement).style.color = "#22A05A")}
+              onMouseLeave={(e) => ((e.target as HTMLElement).style.color = "rgba(255,255,255,0.45)")}
+            >{c.terms}</button>
+            <button
+              onClick={() => setLegal("privacy")}
+              style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 400, fontSize: 12.5, color: "rgba(255,255,255,0.45)", background: "none", border: "none", cursor: "pointer", padding: 0, transition: "color 150ms ease" }}
+              onMouseEnter={(e) => ((e.target as HTMLElement).style.color = "#22A05A")}
+              onMouseLeave={(e) => ((e.target as HTMLElement).style.color = "rgba(255,255,255,0.45)")}
+            >{c.privacy}</button>
+            <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 400, fontSize: 12.5, color: "rgba(255,255,255,0.25)" }}>{c.license}</span>
+          </div>
         </div>
       </div>
+
+      <LegalModal type={legal} lang={lang} onClose={() => setLegal(null)} />
     </footer>
   );
 }
