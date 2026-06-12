@@ -75,7 +75,7 @@ export default function WaterDamageSection({ lang }: WaterProps) {
   const c = COPY[lang];
 
   const callNow = () => {
-    window.location.href = "tel:+12145551234";
+    window.location.href = "tel:+12148825483";
   };
 
   return (

@@ -254,12 +254,12 @@ export default function Navbar({ lang, setLang }: NavbarProps) {
               ))}
             </div>
             <a
-              href="tel:+12145551234"
+              href="tel:+12148825483"
               className="btn-emerald"
               style={{ padding: "8px 16px", fontSize: 13, gap: 6, borderRadius: 4, whiteSpace: "nowrap" }}
             >
               <Phone size={13} />
-              (214) 555-1234
+              (214) 882-5483
             </a>
           </div>
 
@@ -414,7 +414,7 @@ export default function Navbar({ lang, setLang }: NavbarProps) {
           </nav>
 
           <a
-            href="tel:+12145551234"
+            href="tel:+12148825483"
             className="btn-emerald"
             style={{
               marginTop: 20,

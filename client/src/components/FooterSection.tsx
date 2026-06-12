@@ -102,7 +102,7 @@ export default function FooterSection({ lang }: FooterProps) {
           <div>
             <div style={colTitle}>{c.contact}</div>
             {[
-              { icon: Phone, text: "(214) 555-1234", href: "tel:+12145551234" },
+              { icon: Phone, text: "(214) 882-5483", href: "tel:+12148825483" },
               { icon: Mail, text: "info@promastercontractors.com", href: "mailto:info@promastercontractors.com" },
               { icon: MapPin, text: "Dallas-Fort Worth, TX", href: undefined },
             ].map((item, i) => {

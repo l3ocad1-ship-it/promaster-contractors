@@ -11,7 +11,7 @@ const COPY = {
     label: "Get In Touch",
     title: "Request Your\nFree Estimate.",
     sub: "Fill out the form and we'll get back to you within 2 hours. For emergencies, call us directly.",
-    phone: "(214) 555-1234",
+    phone: "(214) 882-5483",
     email: "info@promastercontractors.com",
     address: "Dallas-Fort Worth Metroplex, TX",
     hours: "Mon–Fri 8am–6pm | Emergency 24/7",
@@ -30,7 +30,7 @@ const COPY = {
     label: "Contáctanos",
     title: "Solicita Tu\nEstimado Gratis.",
     sub: "Llena el formulario y te respondemos en 2 horas. Para emergencias, llámanos directamente.",
-    phone: "(214) 555-1234",
+    phone: "(214) 882-5483",
     email: "info@promastercontractors.com",
     address: "Área Metropolitana de Dallas-Fort Worth, TX",
     hours: "Lun–Vie 8am–6pm | Emergencias 24/7",
@@ -101,7 +101,7 @@ export default function ContactSection({ lang }: ContactProps) {
   };
 
   const contactItems = [
-    { icon: Phone, text: c.phone, href: "tel:+12145551234" },
+    { icon: Phone, text: c.phone, href: "tel:+12148825483" },
     { icon: Mail, text: c.email, href: `mailto:${c.email}` },
     { icon: MapPin, text: c.address, href: undefined },
     { icon: Clock, text: c.hours, href: undefined },

@@ -12,7 +12,7 @@ const COPY = {
     title: "Water Damage Doesn't\nWait. Neither Do We.",
     sub: "Every minute counts when water damage strikes. Our certified technicians are dispatched within 60 minutes — 24 hours a day, 7 days a week, 365 days a year.",
     cta: "Call Emergency Line Now",
-    phone: "(214) 555-1234",
+    phone: "(214) 882-5483",
     note: "Free assessment — No obligation",
     features: [
       { icon: Zap, title: "60-Min Response", desc: "Technicians on-site within 60 minutes of your call" },
@@ -25,7 +25,7 @@ const COPY = {
     title: "El Daño por Agua\nNo Espera. Nosotros Tampoco.",
     sub: "Cada minuto cuenta cuando el agua daña tu propiedad. Nuestros técnicos certificados son despachados en 60 minutos — 24 horas al día, 7 días a la semana.",
     cta: "Llamar Línea de Emergencia",
-    phone: "(214) 555-1234",
+    phone: "(214) 882-5483",
     note: "Evaluación gratuita — Sin compromiso",
     features: [
       { icon: Zap, title: "Respuesta en 60 Min", desc: "Técnicos en sitio dentro de 60 minutos de tu llamada" },
@@ -89,7 +89,7 @@ export default function EmergencySection({ lang }: EmergencyProps) {
 
             {/* Big phone CTA */}
             <a
-              href="tel:+12145551234"
+              href="tel:+12148825483"
               style={{
                 display: "inline-flex", alignItems: "center", gap: 14,
                 padding: "18px 32px",
