@@ -8,7 +8,7 @@
 import { CheckCircle, Droplets, ArrowRight, Clock } from "lucide-react";
 import type { Lang } from "@/pages/Home";
 
-const WATER_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663460319800/joEZAhNjB3mNEDWkdEhYv4/service_water_damage-GhASdmCZbQyjgJsCfPEHTZ.webp";
+const WATER_IMG = `${import.meta.env.BASE_URL}images/water-damage-1.jpg`;
 
 const COPY = {
   en: {

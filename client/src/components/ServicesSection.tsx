@@ -6,10 +6,10 @@
 import { Droplets, Layers, Home, Wind, CheckCircle, ArrowRight } from "lucide-react";
 import type { Lang } from "@/pages/Home";
 
-const WATER_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663460319800/joEZAhNjB3mNEDWkdEhYv4/service_water_damage-GhASdmCZbQyjgJsCfPEHTZ.webp";
-const CARPET_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663460319800/joEZAhNjB3mNEDWkdEhYv4/service_carpet-YeNo2PnfGfEr2fi8irrRVX.webp";
-const REMODEL_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663460319800/joEZAhNjB3mNEDWkdEhYv4/service_remodeling-KvkWP7GqTCccoh5eFRw45H.webp";
-const AIRDUCT_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663460319800/joEZAhNjB3mNEDWkdEhYv4/service_airduct-iPF6gxUPqUk5jTBRbETxrr.webp";
+const WATER_IMG = `${import.meta.env.BASE_URL}images/water-damage-2.jpg`;
+const CARPET_IMG = `${import.meta.env.BASE_URL}images/carpet-2.jpg`;
+const REMODEL_IMG = `${import.meta.env.BASE_URL}images/remodeling-2.jpg`;
+const AIRDUCT_IMG = `${import.meta.env.BASE_URL}images/airduct-clean.jpg`;
 
 const COPY = {
   en: {
