@@ -14,7 +14,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 
-const REMODELING_IMAGE = `${import.meta.env.BASE_URL}images/remodeling-1.jpg`;
+const REMODELING_IMAGE = `${import.meta.env.BASE_URL}images/commercial-remodeling-dfw.webp`;
 
 const features = [
   {

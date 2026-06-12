@@ -6,10 +6,10 @@
 import { Droplets, Layers, Home, Wind, CheckCircle, ArrowRight } from "lucide-react";
 import type { Lang } from "@/pages/Home";
 
-const WATER_IMG = `${import.meta.env.BASE_URL}images/water-damage-2.jpg`;
-const CARPET_IMG = `${import.meta.env.BASE_URL}images/carpet-2.jpg`;
-const REMODEL_IMG = `${import.meta.env.BASE_URL}images/remodeling-2.jpg`;
-const AIRDUCT_IMG = `${import.meta.env.BASE_URL}images/airduct-clean.jpg`;
+const WATER_IMG = `${import.meta.env.BASE_URL}images/water-extraction-dfw.webp`;
+const CARPET_IMG = `${import.meta.env.BASE_URL}images/carpet-cleaning-hallway-dfw.webp`;
+const REMODEL_IMG = `${import.meta.env.BASE_URL}images/commercial-restoration-dallas-fort-worth.webp`;
+const AIRDUCT_IMG = `${import.meta.env.BASE_URL}images/air-duct-cleaning-after-dfw.webp`;
 
 const COPY = {
   en: {

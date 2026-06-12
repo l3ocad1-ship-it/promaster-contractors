@@ -23,47 +23,47 @@ const BADGE_LABELS = {
 const PHOTOS = [
   {
     id: 1, cat: "water",
-    src: `${import.meta.env.BASE_URL}images/water-damage-1.jpg`,
+    src: `${import.meta.env.BASE_URL}images/water-damage-restoration-dallas-fort-worth.webp`,
     caption: { en: "Water Damage Restoration", es: "Restauración por Daño de Agua" },
   },
   {
     id: 2, cat: "remodel",
-    src: `${import.meta.env.BASE_URL}images/remodeling-1.jpg`,
+    src: `${import.meta.env.BASE_URL}images/commercial-remodeling-dfw.webp`,
     caption: { en: "Commercial Remodeling", es: "Remodelación Comercial" },
   },
   {
     id: 3, cat: "remodel",
-    src: `${import.meta.env.BASE_URL}images/remodeling-3.jpg`,
+    src: `${import.meta.env.BASE_URL}images/kitchen-restoration-dfw.webp`,
     caption: { en: "Kitchen Restoration", es: "Restauración de Cocina" },
   },
   {
     id: 4, cat: "carpet",
-    src: `${import.meta.env.BASE_URL}images/carpet-1.jpg`,
+    src: `${import.meta.env.BASE_URL}images/professional-carpet-cleaning-dfw.webp`,
     caption: { en: "Carpet Cleaning — Bedroom", es: "Limpieza de Alfombra — Recámara" },
   },
   {
     id: 5, cat: "carpet",
-    src: `${import.meta.env.BASE_URL}images/carpet-3.jpg`,
+    src: `${import.meta.env.BASE_URL}images/deep-carpet-cleaning-dallas-fort-worth.webp`,
     caption: { en: "Carpet Cleaning — Hallway", es: "Limpieza de Alfombra — Pasillo" },
   },
   {
     id: 6, cat: "airduct",
-    src: `${import.meta.env.BASE_URL}images/airduct-dirty.jpg`,
+    src: `${import.meta.env.BASE_URL}images/air-duct-cleaning-before-dfw.webp`,
     caption: { en: "Air Duct Inspection", es: "Inspección de Ductos" },
   },
   {
     id: 7, cat: "water",
-    src: `${import.meta.env.BASE_URL}images/water-damage-3.jpg`,
+    src: `${import.meta.env.BASE_URL}images/water-mold-damage-repair-dfw.webp`,
     caption: { en: "Water & Mold Damage Repair", es: "Reparación por Agua y Moho" },
   },
   {
     id: 8, cat: "remodel",
-    src: `${import.meta.env.BASE_URL}images/remodeling-2.jpg`,
+    src: `${import.meta.env.BASE_URL}images/commercial-restoration-dallas-fort-worth.webp`,
     caption: { en: "Commercial Restoration", es: "Restauración Comercial" },
   },
   {
     id: 9, cat: "airduct",
-    src: `${import.meta.env.BASE_URL}images/airduct-clean.jpg`,
+    src: `${import.meta.env.BASE_URL}images/air-duct-cleaning-after-dfw.webp`,
     caption: { en: "Clean HVAC Ductwork", es: "Ductos Limpios" },
   },
 ];

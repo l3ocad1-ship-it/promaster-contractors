@@ -7,7 +7,7 @@
 import { CheckCircle, Layers, ArrowRight, Star } from "lucide-react";
 import type { Lang } from "@/pages/Home";
 
-const CARPET_IMG = `${import.meta.env.BASE_URL}images/carpet-1.jpg`;
+const CARPET_IMG = `${import.meta.env.BASE_URL}images/professional-carpet-cleaning-dfw.webp`;
 
 const COPY = {
   en: {

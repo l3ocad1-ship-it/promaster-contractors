@@ -7,7 +7,7 @@
 import { CheckCircle, Wind, Flame, ArrowRight } from "lucide-react";
 import type { Lang } from "@/pages/Home";
 
-const AIRDUCT_IMG = `${import.meta.env.BASE_URL}images/airduct-dirty.jpg`;
+const AIRDUCT_IMG = `${import.meta.env.BASE_URL}images/air-duct-cleaning-before-dfw.webp`;
 
 const COPY = {
   en: {
